@@ -1,5 +1,5 @@
 {
-  "name": "hello-engineering-events",
+  "name": "hello-puppeteer",
   "version": "1.0.0",
   "description": "## Usage ~~~sh make -f docker.mk install ~~~",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tamakiii-sandbox/hello-engineering-events.git"
+    "url": "git+https://github.com/tamakiii-sandbox/hello-puppeteer.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/tamakiii-sandbox/hello-engineering-events/issues"
+    "url": "https://github.com/tamakiii-sandbox/hello-puppeteer/issues"
   },
-  "homepage": "https://github.com/tamakiii-sandbox/hello-engineering-events#readme",
+  "homepage": "https://github.com/tamakiii-sandbox/hello-puppeteer#readme",
   "dependencies": {
     "puppeteer-core": "^2.0.0"
   }

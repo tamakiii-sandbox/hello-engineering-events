@@ -1,4 +1,4 @@
-# hello-engineering-events
+# hello-puppeteer
 
 ## Usage
 ~~~sh
