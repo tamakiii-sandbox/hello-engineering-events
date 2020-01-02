@@ -1,0 +1,18 @@
+{
+  "name": "hello-engineering-events",
+  "version": "1.0.0",
+  "description": "## Usage ~~~sh make -f docker.mk install ~~~",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamakiii-sandbox/hello-engineering-events.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/tamakiii-sandbox/hello-engineering-events/issues"
+  },
+  "homepage": "https://github.com/tamakiii-sandbox/hello-engineering-events#readme"
+}
