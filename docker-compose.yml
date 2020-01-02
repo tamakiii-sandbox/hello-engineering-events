@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  chrome:
+    build: docker/chrome
+    working_dir: /app
+    ports:
+      - ${CHROME_PORT:-9876}:9876
+    volumes:
+      - .:/app
