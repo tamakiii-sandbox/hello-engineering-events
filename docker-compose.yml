@@ -1,7 +1,7 @@
 version: "3.7"
 services:
-  chrome:
-    build: docker/chrome
+  node:
+    build: docker/node
     working_dir: /app
     ports:
       - ${CHROME_PORT:-9876}:9876
