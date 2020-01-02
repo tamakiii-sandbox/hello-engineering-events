@@ -5,6 +5,9 @@ services:
       context: docker/node
       target: ${ENVIRONMENT:-development}
     working_dir: /home/node/app
+    user: node
+    cap_add:
+      - SYS_ADMIN
     ports:
       - ${CHROME_PORT:-9876}:9876
     volumes:

@@ -17,15 +17,9 @@ RUN addgroup -S node && \
     mkdir -p /home/node && \
     chown -R node:node /home/node
 
-USER node
-
 # ---
 
 FROM production-pseudo AS development
 
-USER root
-
 RUN apk add --no-cache shadow && \
     rm -rf /var/cache/*
-
-USER node
