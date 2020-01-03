@@ -6,14 +6,14 @@ RUN apk add --no-cache \
       chromium \
       curl \
       nss \
+      ca-certificates \
       fontconfig \
       freetype \
       freetype-dev \
       font-noto \
       font-noto-cjk-extra \
-      harfbuzz \
-      ca-certificates \
-      ttf-freefont && \
+      ttf-freefont \
+      harfbuzz && \
     rm -rf /var/cache/*
 
 RUN addgroup -S node && \
