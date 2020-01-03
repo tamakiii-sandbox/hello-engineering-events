@@ -4,9 +4,13 @@ RUN apk add --no-cache \
       npm \
       nodejs \
       chromium \
+      curl \
       nss \
+      fontconfig \
       freetype \
       freetype-dev \
+      font-noto \
+      font-noto-cjk-extra \
       harfbuzz \
       ca-certificates \
       ttf-freefont && \
