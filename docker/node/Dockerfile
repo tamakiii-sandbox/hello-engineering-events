@@ -17,6 +17,10 @@ RUN addgroup -S node && \
     mkdir -p /home/node && \
     chown -R node:node /home/node
 
+COPY ./docker-entrypoint.sh /
+RUN chown node:node /docker-entrypoint.sh
+ENTRYPOINT ["/docker-entrypoint.sh"]
+
 # ---
 
 FROM production-pseudo AS development
